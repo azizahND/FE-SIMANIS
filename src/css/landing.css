@@ -1,0 +1,137 @@
+.App {
+    text-align: left;
+    background-color: #61dafb !important;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .LandingPage-header {
+    background-color: rgba(0, 147, 221, 0.5);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .simanis {
+    margin-left: 60px;
+  }
+
+
+  .LandingPage-header .simanis h1 {
+    font-size: 100px; 
+    font-weight: bold; 
+    color: #00255C; 
+    text-align: left; 
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+
+  .LandingPage-header .simanis h3 {
+    font-size: 20px; 
+    text-align: left; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  }
+
+  .gambarMagang {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+  .gambarMagang img {
+    margin-right: 30px;
+    width: 550px;
+    height: 500px;
+  }
+
+
+  .custom-button {
+    background-color: #5DAB2C; 
+    color: white; 
+    border: 1px solid transparent; 
+  }
+  
+  .custom-button:hover {
+    background-color: #4a8924; 
+  }
+  
+  .custom-button:focus {
+    background-color: #4a8924; 
+  }
+  
+  
+.LandingPage-section1 h1 {
+  font-weight: bold; 
+  color: #00255C;
+  font-size: 80px;
+  margin-left: 40px;
+  margin-right: 30px;
+}
+
+
+.LandingPage-section1 h3 {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.LandingPage-section1 h4 {
+  font-size: 15px;
+  margin-left: 40px;
+  margin-right: 30px;
+ 
+}
+
+.LandingPage-section1 img {
+  margin-left: 50px;
+  width: 500px;
+  height: 400px;
+}
+
+.LandingPage-section2 {
+  background-color: #00255C;
+}
+
+.LandingPage-section3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.LandingPage-section3 h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  margin-top: 60px;
+}
+
+
+
+
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
